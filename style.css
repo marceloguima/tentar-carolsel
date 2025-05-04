@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.item{
+  opacity: 0;
+}
+
+.active.active{
+opacity: 1;
+}
+
+
+.dots{
+width: 300px;
+display: flex;
+gap: 5px;
+}
+
+
+.dot{
+    width: 40px;
+    height: 4px;
+    background-color: #aef8fd;
+}
+
+.dot.active{
+    background-color: #02e9fa;
+}
